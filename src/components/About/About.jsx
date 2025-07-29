@@ -25,6 +25,7 @@ const About = () => {
                 "Java Developer",
                 "Angular Designer",
                 "Coder",
+                "React Designer",
               ]}
               speed={100}
               eraseSpeed={50}

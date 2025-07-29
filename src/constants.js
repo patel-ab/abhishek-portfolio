@@ -37,6 +37,9 @@ import psscLogo from "./assets/education_logo/pssc.png";
 // Project Section Logo's
 import udmlogo from "./assets/projects_logo/UDM.png";
 import dbmlogo from "./assets/projects_logo/DBM.png";
+import gxlogo from "./assets/projects_logo/gamexplorer.png";
+import taxlogo from "./assets/projects_logo/tax.png";
+import portfoliologo from "./assets/projects_logo/portfolio.png";
 
 
 // Certification Section Logo's
@@ -98,7 +101,7 @@ export const experiences = [
     img: msulogo,
     img2: msulogo2,
     date: "January 2025 - May 2025",
-    desc: "TA for CSE-335 Object Oriented Software Development, mentoring students in Java and C++ through real-world coding challenges and debugging. Led 15 Learning Assistants to deliver structured technical support, improve course outcomes, and help students build confidence in writing clean, maintainable code.",
+    desc: "TA for CSE-335 Object Oriented Software Development, mentoring students in Java and C++ through real-world coding challenges and debugging. Led 15 Learning Assistants to deliver structured academic support, improve course outcomes, and help students build confidence in writing clean, maintainable code.",
     skills: [
       "Object Oriented Programming",
       "Java",
@@ -116,7 +119,7 @@ export const experiences = [
     img: tcslogo,
     img2: tcslogo2,
     date: "July 2021 - December 2023",
-    desc: "Worked as a Fullstack Engineer, delivering scalable backend microservices and performant frontend applications using Java, Spring Boot and Angular. Collaborated with cross-functional Agile teams to build and optimize a Credit Bureau Integration platform, improving database response times by 40% and enhancing user experience with lazy loading and route-based code splitting.",
+    desc: "Worked as a Fullstack Developer, delivering scalable backend microservices and performant frontend applications using Java, Spring Boot and Angular. Collaborated with cross-functional Agile teams to build and enhance a leading Credit Bureau Integration platform.",
     skills: [
       "Java",
       "Spring Boot",
@@ -137,7 +140,7 @@ export const education = [
     img: msulogo,
     img2: msulogo2,
     date: "January 2024 - December 2025",
-    desc: "Pursuing Master’s in Computer Science at MSU, with a strong foundation in programming, software development, and computer science principles. Coursework includes Data Structures and Algorithms, Advanced Software Engineering, Distributed Systems. Actively engaging in workshops and technical events to enhance practical knowledge and professional growth. Expected to graduate in December 2025.",
+    desc: "Pursuing Master’s in Computer Science at MSU, with a strong foundation in programming, development, and software engineering principles. Coursework includes subjects like Data Structures and Algorithms, Advanced Software Engineering, Distributed Systems etc. Actively engaging in workshops and technical events to enhance practical knowledge and professional growth. Expected to graduate in December 2025.",
     degree: "Master of Science in Computer Science",
   },
   {
@@ -165,9 +168,9 @@ export const projects1 = [
     id: 0,
     title: "Undisclosed Debt Monitoring — Equifax",
     description:
-      "Developed real-time monitoring features to detect undisclosed borrower credit activity during the loan process. Helped reduce lending risks by enabling early identification of new tradelines, inquiries, and delinquencies.Enhanced alert accuracy and reporting logic to support proactive decision-making by lenders. Collaborated with cross-functional teams to improve data reliability and system scalability.",
+      "Developed real-time monitoring features to detect undisclosed borrower credit activity during the loan process. Helped reduce lending risks by enabling early identification of new tradelines, inquiries, and delinquencies. Enhanced alert accuracy and reporting logic to support proactive decision-making by lenders. Collaborated with cross-functional teams to improve data reliability and system scalability.",
     image: udmlogo,
-    tags: ["Java", "Spring Boot", "JavaScript", "Angular", "API", "GCP"],
+    tags: ["Java", "Spring Boot", "JavaScript", "Angular","GCP"],
     github:
       "https://www.equifax.com/business/product/undisclosed-debt-monitoring/",
   },
@@ -177,7 +180,7 @@ export const projects1 = [
     description:
       "Extended Undisclosed Debt Monitoring to dual‑bureau coverage (Equifax + TransUnion) to eliminate blind spots and improve credit risk detection. Built routing and reconciliation logic to surface discrepant tradelines, inquiries, and balance shifts between bureaus. Improved alert accuracy and reporting to support faster underwriting decisions and reduce undisclosed debt exposure.",
     image: dbmlogo,
-    tags: ["Java", "Spring Boot", "JavaScript", "Angular", "API", "GCP"],
+    tags: ["Java", "Spring Boot", "JavaScript", "Angular", "GCP"],
     github:
       "https://www.equifax.com/business/blog/-/insight/article/how-to-monitor-your-pipeline-for-undisclosed-debt/",
   },
@@ -185,30 +188,30 @@ export const projects1 = [
 export const projects2 = [
   {
     id: 2,
-    title: "Need to Add",
+    title: "GameXplorer",
     description:
-      "Need to ADD",
-    image: udmlogo,
-    tags: [],
-    github: "",
+      "Built a full‑stack game discovery platform using Angular and Spring Boot with a MySQL backend, exposing REST APIs for game search, details, and user favorites. Implemented JSON-based screenshot persistence with JPA/Hibernate. Integrated frontend with backend services to enable seamless user interactions and real-time data rendering.",
+    image: gxlogo,
+    tags: ["Java", "Spring Boot", "Angular","Javascript", "Typescript"],
+    github: "https://github.com/patel-ab/gameXplorer",
   },
   {
     id: 3,
-    title: "Need to Add",
+    title: "Tax Invoice Generator",
     description:
-      "Need to ADD",
-    image: udmlogo,
-    tags: [],
-    github: "",
+      "Implemented Spring Boot-based invoice generation tool with dual OCR support (Tesseract + Google Cloud Vision) to extract data from scanned receipts. Designed regex-driven parsing logic to structure raw OCR text into billable line items. Enabled dynamic PDF generation via RESTful endpoints using multipart file uploads and location-based customization. Followed best practices for modular service design, externalized configuration, and scalability across different OCR providers.",
+    image: taxlogo,
+    tags: ["Java", "Spring Boot", "Google-API", "Tesseract OCR", "Javascript"],
+    github: "https://github.com/patel-ab/tax-invoice-generator",
   },
   {
     id: 4,
-    title: "Need to Add",
+    title: "Portfolio Website",
     description:
-      "Need to ADD",
-    image: udmlogo,
-    tags: [],
-    github: "",
+      "Developed a responsive, portfolio application using React and Tailwind CSS to showcase personal projects, skills, and certifications. Implemented modular components with smooth scroll, section routing, and contact form integration via EmailJS. Optimized performance with Vite bundler and deployed the site on GitHub Pages using CI-based build scripts. Ensured accessibility, mobile responsiveness, and scalable code architecture",
+    image: portfoliologo,
+    tags: ["React", "Javascript", "EmailJS", "HTML", "CSS"],
+    github: "https://github.com/patel-ab/abhishek-portfolio",
   },
 ];
 
