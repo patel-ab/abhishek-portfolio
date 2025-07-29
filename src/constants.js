@@ -140,7 +140,7 @@ export const education = [
     img: msulogo,
     img2: msulogo2,
     date: "January 2024 - December 2025",
-    desc: "Pursuing Master’s in Computer Science at MSU, with a strong foundation in programming, development, and software engineering principles. Coursework includes subjects like Data Structures and Algorithms, Advanced Software Engineering, Distributed Systems etc. Actively engaging in workshops and technical events to enhance practical knowledge and professional growth. Expected to graduate in December 2025.",
+    desc: "Pursuing Master’s in Computer Science at MSU, with a strong foundation in programming, development, and software engineering principles. Coursework includes subjects like Data Structures and Algorithms, Advanced Software Engineering, Distributed Systems etc. Actively engaging in workshops and technical events to enhance practical knowledge and professional growth. Graduating in December 2025.",
     degree: "Master of Science in Computer Science",
   },
   {
@@ -158,7 +158,7 @@ export const education = [
     img: psscLogo,
     img2: psscLogo,
     date: "August 2015 - June 2017",
-    desc: "Completed Higher Secondary Education with a focus on Science and Technology, laying a strong foundation in analytical reasoning and problem-solving skills. Gained exposure to fundamental concepts in computing and logical thinking, which supported a smooth transition into technical education and programming ",
+    desc: "Completed Higher Secondary Education with a focus on Science and Technology, laying a strong foundation in analytical reasoning and problem-solving skills. Gained exposure to fundamental concepts in computing and logical thinking, which supported a smooth transition into technical education and programming.",
     degree: "Higher Secondary Education",
   },
 ];
@@ -208,7 +208,7 @@ export const projects2 = [
     id: 4,
     title: "Portfolio Website",
     description:
-      "Developed a responsive, portfolio application using React and Tailwind CSS to showcase personal projects, skills, and certifications. Implemented modular components with smooth scroll, section routing, and contact form integration via EmailJS. Optimized performance with Vite bundler and deployed the site on GitHub Pages using CI-based build scripts. Ensured accessibility, mobile responsiveness, and scalable code architecture",
+      "Developed a responsive, portfolio application using React and Tailwind CSS to showcase personal projects, skills, and certifications. Implemented modular components with smooth scroll, section routing, and contact form integration via EmailJS. Optimized performance with Vite bundler and deployed the site on GitHub Pages using CI-based build scripts. Ensured accessibility, mobile responsiveness, and scalable code architecture.",
     image: portfoliologo,
     tags: ["React", "Javascript", "EmailJS", "HTML", "CSS"],
     github: "https://github.com/patel-ab/abhishek-portfolio",
