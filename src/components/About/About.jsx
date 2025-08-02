@@ -21,11 +21,11 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                "Fullstack Developer",
+                "Backend Developer",
                 "Java Developer",
-                "Angular Designer",
                 "Coder",
-                "React Designer",
+                "Fullstack Developer",
+                "Software Engineer",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -37,17 +37,13 @@ const About = () => {
             />
           </h3>
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with nearly 3 years of experience in
-            building scalable web applications. Skilled in both back-end and
-            front-end development, I specialize in{" "}
-            <span className="text-blue-500">Java-Spring Boot</span>,{" "}
-            <span className="text-blue-500">Angular</span>,{" "}
-            <span className="text-blue-500">React</span> and other modern
-            technologies to create seamless user experiences and efficient
-            solutions.
+          AWS-certified Software Engineer with 2.5 years of experience building scalable, cloud-native web applications. Specialized in backend development using{" "}
+            <span className="text-blue-500">Java Spring Boot</span>, and RESTful APIs, with solid frontend experience in technologies like{" "}
+            <span className="text-blue-500">Angular</span>, and{" "}
+            <span className="text-blue-500">React</span>. Skilled in delivering production-ready solutions using AWS, Docker, and CI/CD pipelines in Agile environments.
           </p>
           <a
-            href="https://drive.google.com/file/d/14ew15vbnUUzM4Rl4UVbI1M4hj9LJBNZS/view?usp=sharing"
+            href="https://drive.google.com/file/d/14dnpV1vCrq85VF7S4NWZAYG2-9hXf3Nm/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
