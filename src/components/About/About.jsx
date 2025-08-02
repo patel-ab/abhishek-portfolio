@@ -43,7 +43,7 @@ const About = () => {
             <span className="text-blue-500">React</span>. Skilled in delivering production-ready solutions using AWS, Docker, and CI/CD pipelines in Agile environments.
           </p>
           <a
-            href="https://drive.google.com/file/d/14dnpV1vCrq85VF7S4NWZAYG2-9hXf3Nm/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1lUFmqdoKd07Nnhuayu3_JdhcBhRcZc18/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
