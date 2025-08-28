@@ -168,7 +168,7 @@ export const projects1 = [
     id: 0,
     title: "Undisclosed Debt Monitoring — Equifax",
     description:
-      "Developed real-time monitoring features to detect undisclosed borrower credit activity during the loan process. Helped reduce lending risks by enabling early identification of new tradelines, inquiries, and delinquencies. Enhanced alert accuracy and reporting logic to support proactive decision-making by lenders. Collaborated with cross-functional teams to improve data reliability and system scalability.",
+      "Contributed to the development of real-time monitoring features to detect undisclosed borrower credit activity during the loan process. Helped reduce lending risks by enabling early identification of new tradelines, inquiries, and delinquencies. Enhanced alert accuracy and reporting logic to support proactive decision-making by lenders. Collaborated with cross-functional teams to improve data reliability and system scalability.",
     image: udmlogo,
     tags: ["Java", "Spring Boot", "JavaScript", "Angular","GCP"],
     github:
@@ -178,7 +178,7 @@ export const projects1 = [
     id: 1,
     title: "Dual Bureau Monitoring — Equifax",
     description:
-      "Extended Undisclosed Debt Monitoring to dual‑bureau coverage (Equifax + TransUnion) to eliminate blind spots and improve credit risk detection. Built routing and reconciliation logic to surface discrepant tradelines, inquiries, and balance shifts between bureaus. Improved alert accuracy and reporting to support faster underwriting decisions and reduce undisclosed debt exposure.",
+      "Contributed to extending Undisclosed Debt Monitoring to dual-bureau coverage, eliminating blind spots and improving credit risk detection. Developed routing and reconciliation logic to surface discrepant tradelines, inquiries, and balance shifts between bureaus. Enhanced alert accuracy and reporting to support faster underwriting decisions and reduced undisclosed debt exposure.",
     image: dbmlogo,
     tags: ["Java", "Spring Boot", "JavaScript", "Angular", "GCP"],
     github:
