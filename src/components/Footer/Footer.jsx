@@ -47,7 +47,7 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaGithub />, link: "https://github.com/patel-ab" },
+            { icon: <FaGithub />, link: "https://github.com/patel-ab?tab=repositories" },
             {
               icon: <FaLinkedin />,
               link: "https://www.linkedin.com/in/abhishek-patel2000",
