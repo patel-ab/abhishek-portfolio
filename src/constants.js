@@ -39,7 +39,7 @@ import udmlogo from "./assets/projects_logo/UDM.png";
 import dbmlogo from "./assets/projects_logo/DBM.png";
 import gxlogo from "./assets/projects_logo/gamexplorer.png";
 import taxlogo from "./assets/projects_logo/tax.png";
-import portfoliologo from "./assets/projects_logo/portfolio.png";
+import PCPLogo from "./assets/projects_logo/PCPLogo.png";
 
 
 // Certification Section Logo's
@@ -192,7 +192,7 @@ export const projects2 = [
     description:
       "Built a full‑stack game discovery platform using Angular and Spring Boot with a MySQL backend, exposing REST APIs for game search, details, and user favorites. Implemented JSON-based screenshot persistence with JPA/Hibernate. Integrated frontend with backend services to enable seamless user interactions and real-time data rendering.",
     image: gxlogo,
-    tags: ["Java", "Spring Boot", "Angular","Javascript", "Typescript"],
+    tags: ["Angular","Javascript", "Typescript", "Java", "Spring Boot"],
     github: "https://github.com/patel-ab/gameXplorer",
   },
   {
@@ -206,12 +206,12 @@ export const projects2 = [
   },
   {
     id: 4,
-    title: "Portfolio Website",
+    title: "Automated ML Pipeline",
     description:
-      "Developed a responsive, portfolio application using React and Tailwind CSS to showcase personal projects, skills, and certifications. Implemented modular components with smooth scroll, section routing, and contact form integration via EmailJS. Optimized performance with Vite bundler and deployed the site on GitHub Pages using CI-based build scripts. Ensured accessibility, mobile responsiveness, and scalable code architecture.",
-    image: portfoliologo,
-    tags: ["React", "Javascript", "EmailJS", "HTML", "CSS"],
-    github: "https://github.com/patel-ab/abhishek-portfolio",
+      "Developed a scalable machine learning pipeline for pattern recognition using Python, Scikit-learn, and NumPy, integrating preprocessing, feature scaling, and PCA-based dimensionality reduction. Trained and optimized multiple classifiers including SVM, Random Forest, Logistic Regression, k-NN, and Naïve Bayes with cross-validation and grid search. Evaluated performance using precision, recall, F1-score, and confusion matrices, with visualization and comparative analysis in Matplotlib. Designed for modularity and reproducibility across diverse classification datasets.",
+    image: PCPLogo,
+    tags: ["Python", "Machine Learning", "Scikit-learn", "NumPy", "Pandas", "Matplotlib"],
+    github: "https://github.com/patel-ab/ML-pattern-classification-pipeline",
   },
 ];
 
