@@ -40,6 +40,7 @@ import dbmlogo from "./assets/projects_logo/DBM.png";
 import gxlogo from "./assets/projects_logo/gamexplorer.png";
 import taxlogo from "./assets/projects_logo/tax.png";
 import PCPLogo from "./assets/projects_logo/PCPLogo.png";
+import WIPLogo from "./assets/projects_logo/WIP.png";
 
 
 // Certification Section Logo's
@@ -95,17 +96,35 @@ export const SkillsInfo = [
 
 export const experiences = [
   {
-    id: 0,
-    role: "Teaching Assistant",
+  id: 0,
+  role: "Graduate Research Assistant - Web Developer",
+  company: "Michigan State University",
+  img: msulogo,
+  img2: msulogo2,
+  date: "October 2025 - Present",
+  desc: "Developing and maintaining the MSU Plant Biology Department website for Seeds Collection Research Project to highlight ongoing research, faculty profiles, and academic initiatives. Focused on building responsive layouts, improving accessibility, and integrating dynamic content updates to enhance user engagement and visibility.",
+  skills: [
+    "Web Development",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "UI/UX Design",
+    "Accessibility",
+    "Responsive Design",
+  ],
+},
+  {
+    id: 1,
+    role: "Graduate Teaching Assistant",
     company: "Michigan State University",
     img: msulogo,
     img2: msulogo2,
     date: "January 2025 - May 2025",
-    desc: "TA for CSE-335 Object Oriented Software Development, mentoring students in Java and C++ through real-world coding challenges and debugging. Led 15 Learning Assistants to deliver structured academic support, improve course outcomes, and help students build confidence in writing clean, maintainable code.",
+    desc: "TA for CSE 335 - Object Oriented Software Development, mentoring students in Java and C++ through real-world coding challenges and debugging. Led 15 Learning Assistants to deliver structured academic support, improve course outcomes, and help students build confidence in writing clean, maintainable code.",
     skills: [
       "Object Oriented Programming",
-      "Java",
       "C++",
+      "Java",
       "Leadership",
       "Mentoring",
       "Debugging",
@@ -113,7 +132,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     role: "Software Engineer",
     company: "Tata Consultancy Services",
     img: tcslogo,
@@ -131,6 +150,7 @@ export const experiences = [
       "Elasticsearch",
     ],
   },
+  
 ];
 
 export const education = [
@@ -184,6 +204,16 @@ export const projects1 = [
     github:
       "https://www.equifax.com/business/blog/-/insight/article/how-to-monitor-your-pipeline-for-undisclosed-debt/",
   },
+  {
+  id: 2,
+  title: "MSU Plant Biology Website",
+  description:
+    "Led the design and development of the MSU Plant Biology Department website for Seeds Collection Research Project to highlight research, faculty, and academic resources. Built a responsive and accessible interface using modern web technologies, integrating real-time data updates and interactive sections to enhance user engagement and showcase ongoing research projects.",
+  image: WIPLogo,
+  tags: ["JavaScript", "HTML", "CSS", "Web Development", "UI/UX Design"],
+  github:
+  "https://www.equifax.com/business/blog/-/insight/article/how-to-monitor-your-pipeline-for-undisclosed-debt/",
+},
 ];
 export const projects2 = [
   {

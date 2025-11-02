@@ -37,13 +37,13 @@ const About = () => {
             />
           </h3>
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-          AWS-certified Software Engineer with 2.5 years of experience building scalable, cloud-native web applications. Specialized in backend development using{" "}
+          AWS-certified Software Engineer with over 3 years of experience building scalable, cloud-native web applications. Specialized in backend development using{" "}
             <span className="text-blue-500">Java Spring Boot</span>, and RESTful APIs, with solid frontend experience in technologies like{" "}
             <span className="text-blue-500">Angular</span>, and{" "}
             <span className="text-blue-500">React</span>. Skilled in delivering production-ready solutions using AWS, Docker, and CI/CD pipelines in Agile environments.
           </p>
           <a
-            href="https://drive.google.com/file/d/1lUFmqdoKd07Nnhuayu3_JdhcBhRcZc18/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1a8BcG-jOwUkZ3ppoTqXirTlNEvVqtrsb/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
