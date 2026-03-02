@@ -28,6 +28,7 @@ import msulogo from "./assets/company_logo/MSU-1.png";
 import msulogo2 from "./assets/company_logo/MSU-2.png";
 import tcslogo from "./assets/company_logo/TCS-1.png";
 import tcslogo2 from "./assets/company_logo/TCS-2.png";
+import ctp1 from "./assets/company_logo/CTP-1.png";
 
 // Education Section Logo's
 import gtulogo from "./assets/education_logo/GTU-1.png";
@@ -40,7 +41,7 @@ import dbmlogo from "./assets/projects_logo/DBM.png";
 import gxlogo from "./assets/projects_logo/gamexplorer.png";
 import taxlogo from "./assets/projects_logo/tax.png";
 import PCPLogo from "./assets/projects_logo/PCPLogo.png";
-import WIPLogo from "./assets/projects_logo/WIP.png";
+import PRILogo from "./assets/projects_logo/SeedsDB.png";
 
 
 // Certification Section Logo's
@@ -97,24 +98,42 @@ export const SkillsInfo = [
 export const experiences = [
   {
   id: 0,
-  role: "Graduate Research Assistant - Web Developer",
-  company: "Michigan State University",
+  role: "Software Engineer Intern",
+  company: "Changing The Present",
+  img: ctp1,
+  img2: ctp1,
+  date: "January 2026 - Present",
+  desc: "Built and enhanced Java Spring Boot backend services for a multi-tenant nonprofit e-commerce platform, focusing on scalable backend architecture, PostgreSQL data management, and reliable RESTful APIs. Worked on optimizing database queries, ensuring transactional consistency, and improving overall system performance to support distributed storefront operations.",
+  skills: [
+    "Java",
+    "Spring Boot",
+    "Angular",
+    "PostgreSQL",
+    "Amazon Web Services",
+    "Amazon RDS"
+  ],
+},
+  {
+  id: 1,
+  role: "Web Developer",
+  company: "Michigan State University | Lowry Lab",
   img: msulogo,
   img2: msulogo2,
-  date: "October 2025 - Present",
+  date: "October 2025 - December 2025",
   desc: "Developing and maintaining the MSU Plant Biology Department website for Seeds Collection Research Project to highlight ongoing research, faculty profiles, and academic initiatives. Focused on building responsive layouts, improving accessibility, and integrating dynamic content updates to enhance user engagement and visibility.",
   skills: [
-    "Web Development",
+    "Angular",
     "JavaScript",
     "HTML",
     "CSS",
+    "Web Development",
     "UI/UX Design",
     "Accessibility",
     "Responsive Design",
   ],
 },
   {
-    id: 1,
+    id: 2,
     role: "Graduate Teaching Assistant",
     company: "Michigan State University",
     img: msulogo,
@@ -132,7 +151,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     role: "Software Engineer",
     company: "Tata Consultancy Services",
     img: tcslogo,
@@ -160,7 +179,7 @@ export const education = [
     img: msulogo,
     img2: msulogo2,
     date: "January 2024 - December 2025",
-    desc: "Pursuing Master’s in Computer Science at MSU, with a strong foundation in programming, development, and software engineering principles. Coursework includes subjects like Data Structures and Algorithms, Advanced Software Engineering, Distributed Systems etc. Actively engaging in workshops and technical events to enhance practical knowledge and professional growth. Graduating in December 2025.",
+    desc: "Completed Master’s in Computer Science at MSU, with a strong foundation in programming, development, and software engineering principles. Coursework includes subjects like Data Structures and Algorithms, Advanced Software Engineering, Distributed Systems etc. Actively engaging in workshops and technical events to enhance practical knowledge and professional growth. Graduating in December 2025.",
     degree: "Master of Science in Computer Science",
   },
   {
@@ -209,10 +228,8 @@ export const projects1 = [
   title: "MSU Plant Biology Website",
   description:
     "Led the design and development of the MSU Plant Biology Department website for Seeds Collection Research Project to highlight research, faculty, and academic resources. Built a responsive and accessible interface using modern web technologies, integrating real-time data updates and interactive sections to enhance user engagement and showcase ongoing research projects.",
-  image: WIPLogo,
-  tags: ["JavaScript", "HTML", "CSS", "Web Development", "UI/UX Design"],
-  github:
-  "https://www.equifax.com/business/blog/-/insight/article/how-to-monitor-your-pipeline-for-undisclosed-debt/",
+  image: PRILogo,
+  tags: ["Angular","JavaScript", "HTML", "CSS", "Web Development", "UI/UX Design"],
 },
 ];
 export const projects2 = [
