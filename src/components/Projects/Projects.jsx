@@ -115,8 +115,8 @@ const Projects = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-            <div className="flex justify-end p-4">
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl max-h-[90vh] overflow-y-auto relative">
+            <div className="flex justify-end p-4 sticky top-0 bg-gray-900 z-10">
               <button
                 onClick={handleCloseModal}
                 className="text-white text-3xl font-bold hover:text-purple-500"
@@ -137,9 +137,27 @@ const Projects = () => {
                 <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                <p className="text-gray-400 mb-4 lg:text-base text-xs">
                   {selectedProject.description}
                 </p>
+                {selectedProject.highlights && (
+                  <ul className="mb-6 space-y-2">
+                    {selectedProject.highlights.map((point, index) => (
+                      <li
+                        key={index}
+                        className="flex text-gray-400 lg:text-base text-xs"
+                      >
+                        <span className="text-purple-500 mr-2 mt-[2px]">▹</span>
+                        <span>
+                          <span className="text-white font-semibold">
+                            {point.label}
+                          </span>
+                          {point.detail ? ` — ${point.detail}` : ""}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {selectedProject.tags.map((tag, index) => (
                     <span

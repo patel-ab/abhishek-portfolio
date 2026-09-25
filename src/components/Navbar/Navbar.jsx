@@ -100,7 +100,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden navbar:flex space-x-4">
           <a
-            href="https://github.com/patel-ab?tab=repositories"
+            href="https://github.com/patel-ab"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"

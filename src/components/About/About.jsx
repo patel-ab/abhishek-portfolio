@@ -21,10 +21,10 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                "Backend Developer",
-                "Java Developer",
-                "Coder",
-                "Fullstack Developer",
+                "Backend Engineer",
+                "Full-Stack Developer",
+                "AI/LLM Engineer",
+                "Cloud-Native Developer",
                 "Software Engineer",
               ]}
               speed={100}
@@ -37,13 +37,16 @@ const About = () => {
             />
           </h3>
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-          AWS-certified Software Engineer with over 3 years of experience building scalable, cloud-native web applications. Specialized in backend development using{" "}
-            <span className="text-blue-500">Java Spring Boot</span>, and RESTful APIs, with solid frontend experience in technologies like{" "}
-            <span className="text-blue-500">Angular</span>, and{" "}
-            <span className="text-blue-500">React</span>. Skilled in delivering production-ready solutions using AWS, Docker, and CI/CD pipelines in Agile environments.
+          I’m a software engineer focused on backend systems and AI-powered applications, with hands-on experience
+          across the full lifecycle — from data modeling and API design to testing, deployment, and monitoring.
+          My work blends traditional backend engineering with distributed microservices and applied AI, including
+          retrieval-augmented generation and LLM integration on the cloud. I care about writing code that’s well-tested,
+          easy to reason about, and built to scale, and I enjoy collaborating in agile teams where design decisions
+          get debated before they get shipped.
           </p>
           <a
-            href="https://drive.google.com/file/d/1a8BcG-jOwUkZ3ppoTqXirTlNEvVqtrsb/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1k1uKVZq8CRGdMzo3yLSFuQTaf0eROjqz/view?usp=drive_link"
+            
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
