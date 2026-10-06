@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+.claude
+.agents
+.codex
+.impeccable
+skills-lock.json
+content.txt
+PRODUCT.md
+DESIGN.md
