@@ -62,6 +62,7 @@ import MRPLogo from "./assets/projects_logo/MRP.png";
 import ECRLogo from "./assets/projects_logo/ECR.png";
 import ECALogo from "./assets/projects_logo/ECA.png";
 import ECTLogo from "./assets/projects_logo/ECT.png";
+import ECWLogo from "./assets/projects_logo/ECW-Poller.png";
 
 // Certification Section Logo's
 import awsDeveloperImg from "./assets/Certifications/awsDeveloper.png";
@@ -282,6 +283,21 @@ export const education = [
 
 export const projects1 = [
   {
+    id: 9,
+    title: "ECW Poller — FHIR Bulk Data Sync",
+    description:
+      "Multi-tenant pipeline, built solo, that authenticates to eClinicalWorks with signed JWTs, pulls hours-long FHIR bulk exports, and loads them into a dedicated PostgreSQL schema per medical practice — safe for several servers to run at once.",
+    highlights: [
+      { label: "Schema-per-practice multi-tenancy", detail: "explicit, twice-verified schema name in every SQL statement instead of thread-local tenant switching, cutting cost ~45% versus a database per practice" },
+      { label: "Found and fixed a 46% data-loss bug", detail: "observation records were silently overwriting each other under a bad key; redesigned to patient + test with newest-wins upserts, restoring complete records" },
+      { label: "Multi-server safe by design", detail: "work claimed with PostgreSQL SKIP LOCKED and advisory locks, every state change a conditional update, so repeats and races change nothing" },
+      { label: "Production scale", detail: "processed 1.5M+ clinical records with zero failures and exact record-level reconciliation" },
+      { label: "SMART on FHIR authentication", detail: "RS384 JWT client assertions, per-practice encrypted keys, and a React dashboard for job monitoring and patient search" },
+    ],
+    image: ECWLogo,
+    tags: ["Java", "Spring Boot", "PostgreSQL", "FHIR", "SMART on FHIR", "OAuth2", "React", "TypeScript"],
+  },
+  {
     id: 6,
     title: "eClinRecruit — AI Clinical Trial Recruitment Platform",
     description:
@@ -294,7 +310,7 @@ export const projects1 = [
       { label: "Shipped to production", detail: "Azure Pipelines building and deploying to AWS Elastic Beanstalk" },
     ],
     image: ECRLogo,
-    tags: ["Java", "Spring Boot", "React", "TypeScript", "SignalR", "Twilio Voice SDK", "AWS Lambda", "DynamoDB", "AWS Bedrock", "AWS Elastic Beanstalk", "Meta Ads API", "AI Voice Agent"],
+    tags: ["Java", "Spring Boot", "React", "TypeScript", "Spring WebSockets", "Twilio Voice SDK", "AWS Lambda", "DynamoDB", "AWS Bedrock", "AWS Elastic Beanstalk", "Meta Ads API", "AI Voice Agent"],
   },
   {
     id: 7,

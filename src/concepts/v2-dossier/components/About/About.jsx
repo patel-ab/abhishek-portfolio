@@ -79,7 +79,7 @@ const About = () => {
             </p>
 
             <div style={heroStyle(show2)} className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-[auto_1fr] sm:items-start sm:gap-10">
-              <span className="text-display-md font-bold leading-none text-stamp">4+</span>
+              <span className="text-display-md font-bold leading-none text-stamp">3+</span>
               <p className="max-w-[65ch] text-body-lg text-ink-muted">
                 Years of professional experience building backend systems and
                 AI-powered applications, from data modeling and API design to
